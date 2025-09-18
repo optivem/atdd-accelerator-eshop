@@ -19,7 +19,6 @@ Use Cases:
 
 Secondary Actors:
 - SAP
-- System Clock
 
 ## Use Case Narrative: Place Order
 
@@ -35,25 +34,34 @@ The customer successfully places an order for a product.
 ### Preconditions
 - The customer is registered and logged into the system.
 - The products to be ordered are available in stock.
+- The product master data is available from SAP.
 
 ### Main Success Scenario
 1. The customer browses the product catalog.
-2. The customer selects one product.
-3. The customer enters the desired quantity.
-4. The customer submits the order.
-5. The system validates product availability.
-7. The system creates the order.
-8. The system provides an order confirmation to the customer.
+2. The system retrieves product master data from SAP.
+3. The customer selects one product.
+4. The customer enters the desired quantity.
+5. The customer submits the order.
+6. The system validates product availability using SAP.
+7. The system creates the order as a draft.
+8. The system reserves the products in SAP.
+9. The system marks order status as reserved.
+10. The system provides an order confirmation to the customer.
 
 ### Extensions (Alternative Flows)
-- 2a. Product not available:
-	- The system notifies the customer and suggests removing or replacing unavailable items.
-- 3a. Non-positive quantity:
-	- The system notifies the customer and suggests removing or replacing unavailable items.
+- 2a. SAP is unavailable:
+    - The system notifies the customer that product information cannot be retrieved at this time.
+- 3a. Product not available:
+    - The system notifies the customer and suggests removing or replacing unavailable items.
+- 4a. Non-positive quantity:
+    - The system notifies the customer and suggests entering a valid quantity.
+- 9a. SAP is unavailable:
+    - The system notifies the customer that product reservation cannot be made at this time.
 
 ### Postconditions
 - The order is created and stored in the system.
 - The customer receives an order confirmation.
+- The products have been reserved in SAP.
 
 ## Use Case Narrative: Cancel Order
 
