@@ -4,4 +4,3 @@ This documentation is for the project [ATDD Accelerator](https://github.com/opti
 
 Table of Contents:
 - [System Behavior](system-behavior.md)
-- [System Behavior](docs/system-behavior.md)
