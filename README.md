@@ -9,6 +9,10 @@ This is the ATDD Sandbox Project used within the [ATDD Accelerator Program](http
 1. Close this repository (you can use [GitHub Desktop](https://desktop.github.com/download/)).
 2. See relevant projects inside depending on your chosen languages: Java, C#, TypeScript.
 
+## License
+
+MIT License
+
 ## Contributors
 
 - [Valentina Jemuović](https://www.linkedin.com/in/valentinajemuovic/)
