@@ -84,7 +84,7 @@ The customer successfully cancels an order that has not yet been shipped.
 3. The system checks if the order is eligible for cancellation (not shipped).
 4. The customer confirms the cancellation.
 5. The system cancels the order.
-7. The system notifies the customer of the successful cancellation.
+6. The system notifies the customer of the successful cancellation.
 
 ### Extensions (Alternative Flows)
 - 3a. Order already shipped:
@@ -96,4 +96,4 @@ The customer successfully cancels an order that has not yet been shipped.
 
 ## Use Case Narrative: View Order Details
 
-In a Real Life Project, we would write Use Case Narratives for the other Use Cases too. In this Sandbox Project, I've ommitted writing the other Use Cases.
+In a Real Life Project, we would write Use Case Narratives for the other Use Cases too. In this Sandbox Project, I've omitted writing the other Use Cases.
