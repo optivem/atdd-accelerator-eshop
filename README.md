@@ -6,7 +6,7 @@ This is the ATDD Sandbox Project used within the [ATDD Accelerator Program](http
 
 ## Instructions
 
-1. Close this repository (you can use [GitHub Desktop](https://desktop.github.com/download/)).
+1. Clone this repository (you can use [GitHub Desktop](https://desktop.github.com/download/)).
 2. See relevant projects inside depending on your chosen languages: Java, C#, TypeScript.
 
 ## Documentation
