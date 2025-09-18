@@ -1,4 +1,8 @@
-# System Behavior (Use Cases)
+# System Behavior
+
+## Use Case Diagram
+
+![Use Case Diagram](images/use-case-diagram.jpg)
 
 Primary Actors:
 - Customers
@@ -10,8 +14,6 @@ Use Cases:
 - Cancel Order
 - View Order Details
 - View Order History
-- Pick Order
-- Pack Order
 - Ship Order
 - View Sales Report
 
