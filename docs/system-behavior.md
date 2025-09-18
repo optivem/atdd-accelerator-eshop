@@ -88,4 +88,4 @@ The customer successfully cancels an order that has not yet been shipped.
 
 ## Use Case Narrative: View Order Details
 
-In a Real Life Project, we would write Use Case Narratives for the other Use Cases too.
+In a Real Life Project, we would write Use Case Narratives for the other Use Cases too. In this Sandbox Project, I've ommitted writing the other Use Cases.
