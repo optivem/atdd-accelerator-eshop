@@ -11,7 +11,11 @@ This is the ATDD Sandbox Project used within the [ATDD Accelerator Program](http
 
 ## Documentation
 
-Read the [documentation](https://optivem.github.io/atdd-accelerator/)
+Read the [Documentation](https://optivem.github.io/atdd-accelerator/).
+
+## Project Board
+
+See the [Project Board](https://github.com/orgs/optivem/projects/3/views/1).
 
 ## License
 
