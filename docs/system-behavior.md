@@ -54,3 +54,38 @@ The customer successfully places an order for a product.
 ### Postconditions
 - The order is created and stored in the system.
 - The customer receives an order confirmation.
+
+## Use Case Narrative: Cancel Order
+
+### Use Case Name
+Cancel Order
+
+### Primary Actor
+Customer
+
+### Goal
+The customer successfully cancels an order that has not yet been shipped.
+
+### Preconditions
+- The customer is registered and logged into the system.
+- The order exists and has not yet been shipped.
+
+### Main Success Scenario
+1. The customer views their list of orders.
+2. The customer selects an order to cancel.
+3. The system checks if the order is eligible for cancellation (not shipped).
+4. The customer confirms the cancellation.
+5. The system cancels the order.
+7. The system notifies the customer of the successful cancellation.
+
+### Extensions (Alternative Flows)
+- 3a. Order already shipped:
+	- The system notifies the customer that the order cannot be canceled.
+
+### Postconditions
+- The order status is updated to "Canceled."
+- The customer is notified of the cancellation.
+
+## Use Case Narrative: View Order Details
+
+In a Real Life Project, we would write Use Case Narratives for the other Use Cases too.
