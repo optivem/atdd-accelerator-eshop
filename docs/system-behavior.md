@@ -10,6 +10,8 @@ Use Cases:
 - Cancel Order
 - View Order Details
 - View Order History
+- Pick Order
+- Pack Order
 - Ship Order
 - View Sales Report
 
