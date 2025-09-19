@@ -10,7 +10,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: system/monolith/java
+        working-directory: system-test/java
 
     permissions:
       contents: read
