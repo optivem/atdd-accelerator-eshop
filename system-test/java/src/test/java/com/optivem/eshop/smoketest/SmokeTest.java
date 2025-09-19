@@ -9,6 +9,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class SmokeTest {
     @Test
     void shouldOpenGoogleAndCheckTitle() {
+        assertTrue(false, "This is Valentina!");
+
         try (Playwright playwright = Playwright.create()) {
             Browser browser = playwright.chromium().launch();
             Page page = browser.newPage();
