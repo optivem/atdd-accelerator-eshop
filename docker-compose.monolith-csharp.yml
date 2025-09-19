@@ -2,4 +2,4 @@ services:
   monolith:
     image: ghcr.io/optivem/atdd-accelerator/monolith-csharp:latest
     ports:
-      - "8080:8080"
+      - "8080:80"
