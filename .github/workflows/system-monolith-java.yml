@@ -12,12 +12,12 @@ on:
     branches: [ "main" ]
     paths:
         - 'system/monolith/java/**'
-        - '/.github/workflows/system-monolith-java.yml'
+        - '.github/workflows/system-monolith-java.yml'
   pull_request:
     branches: [ "main" ]
     paths:
         - 'system/monolith/java/**'
-        - '/.github/workflows/system-monolith-java.yml'
+        - '.github/workflows/system-monolith-java.yml'
 
 jobs:
   build:

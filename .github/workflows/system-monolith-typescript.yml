@@ -8,12 +8,12 @@ on:
     branches: [ "main" ]
     paths:
         - 'system/monolith/typescript/**'
-        - '/.github/workflows/system-monolith-typescript.yml'
+        - '.github/workflows/system-monolith-typescript.yml'
   pull_request:
     branches: [ "main" ]
     paths:
         - 'system/monolith/typescript/**'
-        - '/.github/workflows/system-monolith-typescript.yml'
+        - '.github/workflows/system-monolith-typescript.yml'
 
 jobs:
   build:
