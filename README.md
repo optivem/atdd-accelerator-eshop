@@ -6,6 +6,7 @@
 [![release-stage-monolith-java](https://github.com/optivem/atdd-accelerator/actions/workflows/release-stage-monolith-java.yml/badge.svg)](https://github.com/optivem/atdd-accelerator/actions/workflows/release-stage-monolith-java.yml)
 
 [![commit-stage-monolith-csharp](https://github.com/optivem/atdd-accelerator/actions/workflows/commit-stage-monolith-csharp.yaml/badge.svg)](https://github.com/optivem/atdd-accelerator/actions/workflows/commit-stage-monolith-csharp.yaml)
+[![release-stage-monolith-csharp](https://github.com/optivem/atdd-accelerator/actions/workflows/release-stage-monolith-csharp.yml/badge.svg)](https://github.com/optivem/atdd-accelerator/actions/workflows/release-stage-monolith-csharp.yml)
 
 [![commit-stage-monolith-typescript](https://github.com/optivem/atdd-accelerator/actions/workflows/commit-stage-monolith-typescript.yml/badge.svg)](https://github.com/optivem/atdd-accelerator/actions/workflows/commit-stage-monolith-typescript.yml)
 
