@@ -2,14 +2,12 @@
 
 [![pages-build-deployment](https://github.com/optivem/atdd-accelerator/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/optivem/atdd-accelerator/actions/workflows/pages/pages-build-deployment)
 
-
-[![precommit-system-monolith-csharp](https://github.com/optivem/atdd-accelerator/actions/workflows/precommit-system-monolith-csharp.yml/badge.svg)](https://github.com/optivem/atdd-accelerator/actions/workflows/precommit-system-monolith-csharp.yml)
-[![precommit-system-monolith-typescript](https://github.com/optivem/atdd-accelerator/actions/workflows/precommit-system-monolith-typescript.yml/badge.svg)](https://github.com/optivem/atdd-accelerator/actions/workflows/precommit-system-monolith-typescript.yml)
-
 [![commit-stage-monolith-java](https://github.com/optivem/atdd-accelerator/actions/workflows/commit-stage-monolith-java.yml/badge.svg)](https://github.com/optivem/atdd-accelerator/actions/workflows/commit-stage-monolith-java.yml)
 [![release-stage-monolith-java](https://github.com/optivem/atdd-accelerator/actions/workflows/release-stage-monolith-java.yml/badge.svg)](https://github.com/optivem/atdd-accelerator/actions/workflows/release-stage-monolith-java.yml)
 
 [![commit-stage-monolith-csharp](https://github.com/optivem/atdd-accelerator/actions/workflows/commit-stage-monolith-csharp.yaml/badge.svg)](https://github.com/optivem/atdd-accelerator/actions/workflows/commit-stage-monolith-csharp.yaml)
+
+[![commit-stage-monolith-typescript](https://github.com/optivem/atdd-accelerator/actions/workflows/commit-stage-monolith-typescript.yml/badge.svg)](https://github.com/optivem/atdd-accelerator/actions/workflows/commit-stage-monolith-typescript.yml)
 
 This is the ATDD Sandbox Project used within the [ATDD Accelerator Program](https://atdd-accelerator.optivem.com/) by [Valentina Jemuović](https://www.linkedin.com/in/valentinajemuovic/). We'll be using an eShop domain.
 
