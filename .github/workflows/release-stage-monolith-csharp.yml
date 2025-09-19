@@ -29,5 +29,8 @@ jobs:
       with:
         dotnet-version: 8.0.x
 
+    - name: Install Playwright
+      run: playwright install
+
     - name: Build
       run: dotnet test
