@@ -1,3 +1,5 @@
+using Microsoft.Playwright;
+
 namespace Optivem.EShop.SystemTest
 {
     public class SmokeTest
