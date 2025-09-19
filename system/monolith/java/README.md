@@ -15,3 +15,5 @@ echo $env:JAVA_HOME
 ```shell
 ./gradlew build
 ```
+
+TODO: VJ: Comment
