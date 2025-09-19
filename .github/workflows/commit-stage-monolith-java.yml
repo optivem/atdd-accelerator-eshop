@@ -1,4 +1,4 @@
-name: Commit Stage
+name: commit-stage-monolith-java
 
 on:
   push:
