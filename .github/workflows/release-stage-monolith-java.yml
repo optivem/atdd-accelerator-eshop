@@ -39,14 +39,15 @@ jobs:
     - name: Print working directory
       run: pwd
 
-    - name: Run Smoke Tests
+    - name: Run All Tests
       run: ./gradlew test
-      # run: ./gradlew test --tests com.optivem.eshop.smoketest.*
-      # TODO: VJ: Fix
 
+    - name: Run Smoke Tests
+      run: ./gradlew test --tests com.optivem.eshop.smoketest.*
 
     - name: Destroy System
       run: docker compose -f docker-compose.monolith-java.yml down
+      working-directory: ./
       # NOTE: In real life applications, this wouldn't be done
 
 
