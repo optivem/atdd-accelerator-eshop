@@ -37,7 +37,9 @@ jobs:
       run: chmod +x ./gradlew
 
     - name: Run Smoke Tests
-      run: ./gradlew test --tests com.optivem.eshop.smoketest.*
+      run: ./gradlew test
+      # run: ./gradlew test --tests com.optivem.eshop.smoketest.*
+      # TODO: VJ: Fix
 
 
     - name: Destroy System
