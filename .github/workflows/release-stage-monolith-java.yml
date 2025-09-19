@@ -36,6 +36,9 @@ jobs:
     - name: Make Gradle Wrapper executable
       run: chmod +x ./gradlew
 
+    - name: Print working directory
+      run: pwd
+
     - name: Run Smoke Tests
       run: ./gradlew test
       # run: ./gradlew test --tests com.optivem.eshop.smoketest.*
