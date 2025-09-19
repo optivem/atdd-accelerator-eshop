@@ -35,9 +35,9 @@ jobs:
 
     - name: Make Gradle Wrapper executable
       run: chmod +x ./gradlew
-      
+
     - name: Run Smoke Tests
-      run: ./gradlew test --tests com.optivem.eshop.smoketest.*
+      run: ./gradlew test --tests com.optivem.eshop.smoketest.* --info
 
     - name: Destroy System
       run: docker compose -f docker-compose.monolith-java.yml down
