@@ -2,7 +2,7 @@
 
 [![pages-build-deployment](https://github.com/optivem/atdd-accelerator/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/optivem/atdd-accelerator/actions/workflows/pages/pages-build-deployment)
 
-[![precommit-system-monolith-java](https://github.com/optivem/atdd-accelerator/actions/workflows/precommit-system-monolith-java.yml/badge.svg)](https://github.com/optivem/atdd-accelerator/actions/workflows/precommit-system-monolith-java.yml)
+
 [![precommit-system-monolith-csharp](https://github.com/optivem/atdd-accelerator/actions/workflows/precommit-system-monolith-csharp.yml/badge.svg)](https://github.com/optivem/atdd-accelerator/actions/workflows/precommit-system-monolith-csharp.yml)
 [![precommit-system-monolith-typescript](https://github.com/optivem/atdd-accelerator/actions/workflows/precommit-system-monolith-typescript.yml/badge.svg)](https://github.com/optivem/atdd-accelerator/actions/workflows/precommit-system-monolith-typescript.yml)
 
