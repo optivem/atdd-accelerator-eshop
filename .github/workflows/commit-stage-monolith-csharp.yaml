@@ -1,0 +1,46 @@
+name: commit-stage-monolith-csharp
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+        - 'system/monolith/csharp/**'
+        - '.github/workflows/commit-stage-monolith-csharp.yml'
+  pull_request:
+    branches: [ "main" ]
+    paths:
+        - 'system/monolith/csharp/**'
+        - '.github/workflows/commit-stage-monolith-csharp.yml'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: system/monolith/csharp
+
+    steps:
+
+    - uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 6.0.x
+
+    - name: Build
+      run: dotnet build
+
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag monolith-csharp:${{ github.sha }}
+
+    - name: Log in to GitHub Container Registry
+      run: echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+    - name: Tag Docker image
+      run: docker tag monolith-csharp:${{ github.sha }} ghcr.io/${{ github.repository }}/monolith-csharp:latest
+
+    - name: Push Docker image
+      run: docker push ghcr.io/${{ github.repository }}/monolith-csharp:latest
