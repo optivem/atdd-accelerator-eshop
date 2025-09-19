@@ -39,6 +39,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+        cache-dependency-path: system/monolith/typescript/package-lock.json
     - name: Print working directory (after setup-node)
       run: pwd
     - run: npm ci
