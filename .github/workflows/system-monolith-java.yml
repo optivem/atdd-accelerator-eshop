@@ -9,15 +9,15 @@ name: system-monolith-java
 
 on:
   push:
-    branches: [ "*" ]
+    branches: [ "main" ]
     paths:
         - 'system/monolith/java/**'
-        - '/.github/workflows/system_monolith_java.yml'
+        - '/.github/workflows/system-monolith-java.yml'
   pull_request:
-    branches: [ "*" ]
+    branches: [ "main" ]
     paths:
         - 'system/monolith/java/**'
-        - '/.github/workflows/system_monolith_java.yml'
+        - '/.github/workflows/system-monolith-java.yml'
 
 jobs:
   build:
