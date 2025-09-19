@@ -1,16 +1,16 @@
 name: commit-stage-monolith-java
-# THis is a comment
 
 on:
   push:
     branches: [ "main" ]
     paths:
         - 'system/monolith/java/**'
+        - '.github/workflows/commit-stage-monolith-java.yml'
   pull_request:
     branches: [ "main" ]
     paths:
         - 'system/monolith/java/**'
-  workflow_dispatch:
+        - '.github/workflows/commit-stage-monolith-java.yml'
 
 jobs:
   build:
