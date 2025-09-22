@@ -12,9 +12,6 @@ jobs:
       run:
         working-directory: system-test/typescript
 
-    permissions:
-      contents: read
-
     strategy:
       matrix:
         node-version: [22.x]
