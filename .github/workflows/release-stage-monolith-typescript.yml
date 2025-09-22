@@ -33,6 +33,9 @@ jobs:
         cache-dependency-path: system-test/typescript/package-lock.json
     
     - run: npm ci
-    
+
+    - name: Install Playwright Browsers
+      run: npx playwright install
+
     - name: Test
       run: npm test
