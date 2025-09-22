@@ -19,6 +19,12 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: Release System
+      run: docker compose -f docker-compose.monolith-typescript.yml up -d
+      working-directory: ./
+      # NOTE: In real life applications, you'd be deploying your System to some Environment
+      # For this demo application, I'm using Docker Compose
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
       with:
@@ -27,14 +33,6 @@ jobs:
         cache-dependency-path: system-test/typescript/package-lock.json
     
     - run: npm ci
-
-    - run: npm run build
-
-    - name: Release System
-      run: docker compose -f docker-compose.monolith-typescript.yml up -d
-      working-directory: ./
-      # NOTE: In real life applications, you'd be deploying your System to some Environment
-      # For this demo application, I'm using Docker Compose
-
+    
     - name: Test
       run: npm test
