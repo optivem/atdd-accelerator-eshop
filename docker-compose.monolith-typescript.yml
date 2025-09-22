@@ -1,0 +1,5 @@
+services:
+  monolith:
+    image: ghcr.io/optivem/atdd-accelerator/monolith-typescript:latest
+    ports:
+      - "8080:3000"

@@ -37,6 +37,3 @@ jobs:
 
     - name: Test
       run: dotnet test
-
-    # - name: Install Playwright
-    #   run: playwright install
