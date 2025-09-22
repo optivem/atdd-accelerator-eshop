@@ -28,9 +28,15 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
+    
+    - name: Build
+      run: dotnet build
+
+    - name: Install Playwright Browsers
+      run: pwsh bin/Debug/net8.0/playwright.ps1 install
+
+    - name: Test
+      run: dotnet test
 
     # - name: Install Playwright
     #   run: playwright install
-
-    - name: Build
-      run: dotnet test
