@@ -11,6 +11,7 @@ on:
     paths:
         - 'system/monolith/csharp/**'
         - '.github/workflows/commit-stage-monolith-csharp.yml'
+  workflow_dispatch:
 
 jobs:
   build:

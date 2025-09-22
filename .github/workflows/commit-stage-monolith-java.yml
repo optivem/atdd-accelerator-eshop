@@ -11,6 +11,7 @@ on:
     paths:
         - 'system/monolith/java/**'
         - '.github/workflows/commit-stage-monolith-java.yml'
+  workflow_dispatch:
 
 jobs:
   build:

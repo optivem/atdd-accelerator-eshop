@@ -14,6 +14,7 @@ on:
     paths:
         - 'system/monolith/typescript/**'
         - '.github/workflows/commit-stage-monolith-typescript.yml'
+  workflow_dispatch:
 
 jobs:
   build:
