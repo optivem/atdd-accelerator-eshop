@@ -1,4 +1,4 @@
-# System Behavior (Architecture)
+# System Structure (Architecture)
 
 ## Architecture Style
 
