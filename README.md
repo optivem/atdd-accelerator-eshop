@@ -25,7 +25,7 @@ Read the [Documentation](https://optivem.github.io/atdd-accelerator-eshop/).
 
 ## Project Board
 
-See the [Project Board](https://github.com/orgs/optivem/projects/10).
+See the [Project Board](https://github.com/orgs/optivem/projects/11).
 
 ## License
 
