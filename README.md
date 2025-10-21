@@ -1,5 +1,6 @@
-# ATDD Accelerator
+# ATDD Accelerator eShop
 
+[![pages-build-deployment](https://github.com/optivem/atdd-accelerator-eshop/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/optivem/atdd-accelerator-eshop/actions/workflows/pages/pages-build-deployment)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 This is the ATDD Sandbox Project used within the [ATDD Accelerator Program](https://atdd-accelerator.optivem.com/) by [Valentina Jemuović](https://www.linkedin.com/in/valentinajemuovic/). We'll be using an eShop domain.
