@@ -1,3 +1,5 @@
+**This project is now archived. Please see the updated consolidated project https://github.com/optivem/shop**
+
 # ATDD Accelerator eShop
 
 [![pages-build-deployment](https://github.com/optivem/atdd-accelerator-eshop/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/optivem/atdd-accelerator-eshop/actions/workflows/pages/pages-build-deployment)
